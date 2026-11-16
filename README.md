@@ -85,7 +85,7 @@ curl -X POST http://localhost:4000/api/links \
 # -> { "shortCode": "mdn-js", "shortUrl": "http://localhost:4000/mdn-js", ... }
 ```
 
-## Decisiones de diseno
+## Decisiones de diseño
 
 - `app.ts` separa la creacion de la app del arranque del servidor, lo que permite probarla con Supertest sin abrir puertos.
 - Solo se guardan los ultimos 20 clics por enlace (`$slice`) para que el documento no crezca sin limite; el contador total si se mantiene siempre.
