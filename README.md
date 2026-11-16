@@ -1,6 +1,6 @@
 # LinkShort API — Acortador de URLs con estadisticas
 
-[![CI](https://github.com/TU_USUARIO/linkshort-api/actions/workflows/ci.yml/badge.svg)](https://github.com/TU_USUARIO/linkshort-api/actions)
+[![CI](https://github.com/JimAcosta123/linkshort-api/actions/workflows/ci.yml/badge.svg)](https://github.com/JimAcosta123/linkshort-api/actions)
 
 API REST que acorta URLs, redirige al destino original y registra estadisticas de clics. Construida con **Node.js, TypeScript, Express y MongoDB**, con pruebas automatizadas, Docker y un pipeline de integracion continua en GitHub Actions.
 
